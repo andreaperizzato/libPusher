@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB1803801BA6C50B00A8D360 /* libPusher-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DB18037F1BA6C50B00A8D360 /* libPusher-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1803901BA6C53E00A8D360 /* NSDictionary+QueryString.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803881BA6C53E00A8D360 /* NSDictionary+QueryString.h */; settings = {ASSET_TAGS = (); }; };
 		DB1803911BA6C53E00A8D360 /* NSString+Hashing.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803891BA6C53E00A8D360 /* NSString+Hashing.h */; settings = {ASSET_TAGS = (); }; };
 		DB1803921BA6C53E00A8D360 /* PTBlockEventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = DB18038A1BA6C53E00A8D360 /* PTBlockEventListener.h */; settings = {ASSET_TAGS = (); }; };
@@ -19,33 +18,33 @@
 		DB1803B61BA6C55700A8D360 /* NSDictionary+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1803981BA6C55700A8D360 /* NSDictionary+QueryString.m */; settings = {ASSET_TAGS = (); }; };
 		DB1803B71BA6C55700A8D360 /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1803991BA6C55700A8D360 /* NSString+Hashing.m */; settings = {ASSET_TAGS = (); }; };
 		DB1803B81BA6C55700A8D360 /* PTBlockEventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18039A1BA6C55700A8D360 /* PTBlockEventListener.m */; settings = {ASSET_TAGS = (); }; };
-		DB1803B91BA6C55700A8D360 /* PTEventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = DB18039B1BA6C55700A8D360 /* PTEventListener.h */; settings = {ASSET_TAGS = (); }; };
+		DB1803B91BA6C55700A8D360 /* PTEventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = DB18039B1BA6C55700A8D360 /* PTEventListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1803BA1BA6C55700A8D360 /* PTJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18039C1BA6C55700A8D360 /* PTJSON.m */; settings = {ASSET_TAGS = (); }; };
-		DB1803BB1BA6C55700A8D360 /* PTPusher.h in Headers */ = {isa = PBXBuildFile; fileRef = DB18039D1BA6C55700A8D360 /* PTPusher.h */; settings = {ASSET_TAGS = (); }; };
+		DB1803BB1BA6C55700A8D360 /* PTPusher.h in Headers */ = {isa = PBXBuildFile; fileRef = DB18039D1BA6C55700A8D360 /* PTPusher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1803BC1BA6C55700A8D360 /* PTPusher.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18039E1BA6C55700A8D360 /* PTPusher.m */; settings = {ASSET_TAGS = (); }; };
-		DB1803BD1BA6C55700A8D360 /* PTPusher+Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = DB18039F1BA6C55700A8D360 /* PTPusher+Testing.h */; settings = {ASSET_TAGS = (); }; };
+		DB1803BD1BA6C55700A8D360 /* PTPusher+Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = DB18039F1BA6C55700A8D360 /* PTPusher+Testing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1803BE1BA6C55700A8D360 /* PTPusher+Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1803A01BA6C55700A8D360 /* PTPusher+Testing.m */; settings = {ASSET_TAGS = (); }; };
-		DB1803BF1BA6C55700A8D360 /* PTPusherAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803A11BA6C55700A8D360 /* PTPusherAPI.h */; settings = {ASSET_TAGS = (); }; };
+		DB1803BF1BA6C55700A8D360 /* PTPusherAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803A11BA6C55700A8D360 /* PTPusherAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1803C01BA6C55700A8D360 /* PTPusherAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1803A21BA6C55700A8D360 /* PTPusherAPI.m */; settings = {ASSET_TAGS = (); }; };
-		DB1803C11BA6C55700A8D360 /* PTPusherChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803A31BA6C55700A8D360 /* PTPusherChannel.h */; settings = {ASSET_TAGS = (); }; };
+		DB1803C11BA6C55700A8D360 /* PTPusherChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803A31BA6C55700A8D360 /* PTPusherChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1803C21BA6C55700A8D360 /* PTPusherChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1803A41BA6C55700A8D360 /* PTPusherChannel.m */; settings = {ASSET_TAGS = (); }; };
 		DB1803C31BA6C55700A8D360 /* PTPusherChannelAuthorizationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1803A51BA6C55700A8D360 /* PTPusherChannelAuthorizationOperation.m */; settings = {ASSET_TAGS = (); }; };
-		DB1803C41BA6C55700A8D360 /* PTPusherConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803A61BA6C55700A8D360 /* PTPusherConnection.h */; settings = {ASSET_TAGS = (); }; };
+		DB1803C41BA6C55700A8D360 /* PTPusherConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803A61BA6C55700A8D360 /* PTPusherConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1803C51BA6C55700A8D360 /* PTPusherConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1803A71BA6C55700A8D360 /* PTPusherConnection.m */; settings = {ASSET_TAGS = (); }; };
-		DB1803C61BA6C55700A8D360 /* PTPusherDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803A81BA6C55700A8D360 /* PTPusherDelegate.h */; settings = {ASSET_TAGS = (); }; };
-		DB1803C71BA6C55700A8D360 /* PTPusherErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803A91BA6C55700A8D360 /* PTPusherErrors.h */; settings = {ASSET_TAGS = (); }; };
-		DB1803C81BA6C55700A8D360 /* PTPusherEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803AA1BA6C55700A8D360 /* PTPusherEvent.h */; settings = {ASSET_TAGS = (); }; };
+		DB1803C61BA6C55700A8D360 /* PTPusherDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803A81BA6C55700A8D360 /* PTPusherDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB1803C71BA6C55700A8D360 /* PTPusherErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803A91BA6C55700A8D360 /* PTPusherErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB1803C81BA6C55700A8D360 /* PTPusherEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803AA1BA6C55700A8D360 /* PTPusherEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1803C91BA6C55700A8D360 /* PTPusherEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1803AB1BA6C55700A8D360 /* PTPusherEvent.m */; settings = {ASSET_TAGS = (); }; };
-		DB1803CA1BA6C55700A8D360 /* PTPusherEventDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803AC1BA6C55700A8D360 /* PTPusherEventDispatcher.h */; settings = {ASSET_TAGS = (); }; };
+		DB1803CA1BA6C55700A8D360 /* PTPusherEventDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803AC1BA6C55700A8D360 /* PTPusherEventDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1803CB1BA6C55700A8D360 /* PTPusherEventDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1803AD1BA6C55700A8D360 /* PTPusherEventDispatcher.m */; settings = {ASSET_TAGS = (); }; };
-		DB1803CC1BA6C55700A8D360 /* PTPusherEventPublisher.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803AE1BA6C55700A8D360 /* PTPusherEventPublisher.h */; settings = {ASSET_TAGS = (); }; };
-		DB1803CD1BA6C55700A8D360 /* PTPusherMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803AF1BA6C55700A8D360 /* PTPusherMacros.h */; settings = {ASSET_TAGS = (); }; };
-		DB1803CE1BA6C55700A8D360 /* PTPusherMockConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803B01BA6C55700A8D360 /* PTPusherMockConnection.h */; settings = {ASSET_TAGS = (); }; };
+		DB1803CC1BA6C55700A8D360 /* PTPusherEventPublisher.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803AE1BA6C55700A8D360 /* PTPusherEventPublisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB1803CD1BA6C55700A8D360 /* PTPusherMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803AF1BA6C55700A8D360 /* PTPusherMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB1803CE1BA6C55700A8D360 /* PTPusherMockConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803B01BA6C55700A8D360 /* PTPusherMockConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1803CF1BA6C55700A8D360 /* PTPusherMockConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1803B11BA6C55700A8D360 /* PTPusherMockConnection.m */; settings = {ASSET_TAGS = (); }; };
-		DB1803D01BA6C55700A8D360 /* PTPusherPresenceChannelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803B21BA6C55700A8D360 /* PTPusherPresenceChannelDelegate.h */; settings = {ASSET_TAGS = (); }; };
+		DB1803D01BA6C55700A8D360 /* PTPusherPresenceChannelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803B21BA6C55700A8D360 /* PTPusherPresenceChannelDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1803D11BA6C55700A8D360 /* PTTargetActionEventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1803B31BA6C55700A8D360 /* PTTargetActionEventListener.m */; settings = {ASSET_TAGS = (); }; };
 		DB1803D21BA6C55700A8D360 /* PTURLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1803B41BA6C55700A8D360 /* PTURLRequestOperation.m */; settings = {ASSET_TAGS = (); }; };
-		DB1803D31BA6C55700A8D360 /* Pusher.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803B51BA6C55700A8D360 /* Pusher.h */; settings = {ASSET_TAGS = (); }; };
+		DB1803D31BA6C55700A8D360 /* Pusher.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803B51BA6C55700A8D360 /* Pusher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1803D71BA6C5E600A8D360 /* base64.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803D41BA6C5E600A8D360 /* base64.h */; settings = {ASSET_TAGS = (); }; };
 		DB1803D81BA6C5E600A8D360 /* NSData+SRB64Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803D51BA6C5E600A8D360 /* NSData+SRB64Additions.h */; settings = {ASSET_TAGS = (); }; };
 		DB1803D91BA6C5E600A8D360 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803D61BA6C5E600A8D360 /* SRWebSocket.h */; settings = {ASSET_TAGS = (); }; };
@@ -59,7 +58,6 @@
 
 /* Begin PBXFileReference section */
 		DB18037C1BA6C50B00A8D360 /* Pusher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pusher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB18037F1BA6C50B00A8D360 /* libPusher-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libPusher-iOS.h"; sourceTree = "<group>"; };
 		DB1803811BA6C50B00A8D360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB1803881BA6C53E00A8D360 /* NSDictionary+QueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+QueryString.h"; path = "../../Library/Private Headers/NSDictionary+QueryString.h"; sourceTree = "<group>"; };
 		DB1803891BA6C53E00A8D360 /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Hashing.h"; path = "../../Library/Private Headers/NSString+Hashing.h"; sourceTree = "<group>"; };
@@ -181,7 +179,6 @@
 				DB1803B31BA6C55700A8D360 /* PTTargetActionEventListener.m */,
 				DB1803B41BA6C55700A8D360 /* PTURLRequestOperation.m */,
 				DB1803B51BA6C55700A8D360 /* Pusher.h */,
-				DB18037F1BA6C50B00A8D360 /* libPusher-iOS.h */,
 				DB1803811BA6C50B00A8D360 /* Info.plist */,
 			);
 			path = "libPusher-iOS";
@@ -223,31 +220,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB1803C41BA6C55700A8D360 /* PTPusherConnection.h in Headers */,
-				DB1803D81BA6C5E600A8D360 /* NSData+SRB64Additions.h in Headers */,
 				DB1803CA1BA6C55700A8D360 /* PTPusherEventDispatcher.h in Headers */,
-				DB1803951BA6C53E00A8D360 /* PTPusherChannelAuthorizationOperation.h in Headers */,
 				DB1803CD1BA6C55700A8D360 /* PTPusherMacros.h in Headers */,
-				DB1803801BA6C50B00A8D360 /* libPusher-iOS.h in Headers */,
 				DB1803CE1BA6C55700A8D360 /* PTPusherMockConnection.h in Headers */,
-				DB1803941BA6C53E00A8D360 /* PTPusherChannel_Private.h in Headers */,
-				DB1803901BA6C53E00A8D360 /* NSDictionary+QueryString.h in Headers */,
 				DB1803BB1BA6C55700A8D360 /* PTPusher.h in Headers */,
 				DB1803C11BA6C55700A8D360 /* PTPusherChannel.h in Headers */,
 				DB1803D01BA6C55700A8D360 /* PTPusherPresenceChannelDelegate.h in Headers */,
 				DB1803BF1BA6C55700A8D360 /* PTPusherAPI.h in Headers */,
 				DB1803C81BA6C55700A8D360 /* PTPusherEvent.h in Headers */,
 				DB1803C71BA6C55700A8D360 /* PTPusherErrors.h in Headers */,
-				DB1803961BA6C53E00A8D360 /* PTTargetActionEventListener.h in Headers */,
-				DB1803911BA6C53E00A8D360 /* NSString+Hashing.h in Headers */,
 				DB1803CC1BA6C55700A8D360 /* PTPusherEventPublisher.h in Headers */,
-				DB1803D91BA6C5E600A8D360 /* SRWebSocket.h in Headers */,
-				DB1803921BA6C53E00A8D360 /* PTBlockEventListener.h in Headers */,
 				DB1803BD1BA6C55700A8D360 /* PTPusher+Testing.h in Headers */,
 				DB1803B91BA6C55700A8D360 /* PTEventListener.h in Headers */,
-				DB1803D71BA6C5E600A8D360 /* base64.h in Headers */,
-				DB1803931BA6C53E00A8D360 /* PTJSON.h in Headers */,
 				DB1803D31BA6C55700A8D360 /* Pusher.h in Headers */,
 				DB1803C61BA6C55700A8D360 /* PTPusherDelegate.h in Headers */,
+				DB1803D81BA6C5E600A8D360 /* NSData+SRB64Additions.h in Headers */,
+				DB1803951BA6C53E00A8D360 /* PTPusherChannelAuthorizationOperation.h in Headers */,
+				DB1803941BA6C53E00A8D360 /* PTPusherChannel_Private.h in Headers */,
+				DB1803901BA6C53E00A8D360 /* NSDictionary+QueryString.h in Headers */,
+				DB1803961BA6C53E00A8D360 /* PTTargetActionEventListener.h in Headers */,
+				DB1803911BA6C53E00A8D360 /* NSString+Hashing.h in Headers */,
+				DB1803D91BA6C5E600A8D360 /* SRWebSocket.h in Headers */,
+				DB1803921BA6C53E00A8D360 /* PTBlockEventListener.h in Headers */,
+				DB1803D71BA6C5E600A8D360 /* base64.h in Headers */,
+				DB1803931BA6C53E00A8D360 /* PTJSON.h in Headers */,
 				DB1803971BA6C53E00A8D360 /* PTURLRequestOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
