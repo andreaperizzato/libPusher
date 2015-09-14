@@ -39,7 +39,6 @@
 		DB1803CB1BA6C55700A8D360 /* PTPusherEventDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1803AD1BA6C55700A8D360 /* PTPusherEventDispatcher.m */; settings = {ASSET_TAGS = (); }; };
 		DB1803CC1BA6C55700A8D360 /* PTPusherEventPublisher.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803AE1BA6C55700A8D360 /* PTPusherEventPublisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1803CD1BA6C55700A8D360 /* PTPusherMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803AF1BA6C55700A8D360 /* PTPusherMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB1803CE1BA6C55700A8D360 /* PTPusherMockConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803B01BA6C55700A8D360 /* PTPusherMockConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1803CF1BA6C55700A8D360 /* PTPusherMockConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1803B11BA6C55700A8D360 /* PTPusherMockConnection.m */; settings = {ASSET_TAGS = (); }; };
 		DB1803D01BA6C55700A8D360 /* PTPusherPresenceChannelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1803B21BA6C55700A8D360 /* PTPusherPresenceChannelDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1803D11BA6C55700A8D360 /* PTTargetActionEventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1803B31BA6C55700A8D360 /* PTTargetActionEventListener.m */; settings = {ASSET_TAGS = (); }; };
@@ -222,7 +221,6 @@
 				DB1803C41BA6C55700A8D360 /* PTPusherConnection.h in Headers */,
 				DB1803CA1BA6C55700A8D360 /* PTPusherEventDispatcher.h in Headers */,
 				DB1803CD1BA6C55700A8D360 /* PTPusherMacros.h in Headers */,
-				DB1803CE1BA6C55700A8D360 /* PTPusherMockConnection.h in Headers */,
 				DB1803BB1BA6C55700A8D360 /* PTPusher.h in Headers */,
 				DB1803C11BA6C55700A8D360 /* PTPusherChannel.h in Headers */,
 				DB1803D01BA6C55700A8D360 /* PTPusherPresenceChannelDelegate.h in Headers */,
