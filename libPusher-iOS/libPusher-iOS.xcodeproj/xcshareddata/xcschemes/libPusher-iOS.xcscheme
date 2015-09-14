@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A3D1D2B61158013F009A12AD"
-               BuildableName = "libPusher.a"
-               BlueprintName = "libPusher"
-               ReferencedContainer = "container:libPusher.xcodeproj">
+               BlueprintIdentifier = "DB18037B1BA6C50B00A8D360"
+               BuildableName = "Pusher.framework"
+               BlueprintName = "Pusher"
+               ReferencedContainer = "container:libPusher-iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -25,19 +25,9 @@
    <TestAction
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A3A1A0EA115813E2001EF877"
-               BuildableName = "UnitTests.xctest"
-               BlueprintName = "UnitTests"
-               ReferencedContainer = "container:libPusher.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -55,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A3D1D2B61158013F009A12AD"
-            BuildableName = "libPusher.a"
-            BlueprintName = "libPusher"
-            ReferencedContainer = "container:libPusher.xcodeproj">
+            BlueprintIdentifier = "DB18037B1BA6C50B00A8D360"
+            BuildableName = "Pusher.framework"
+            BlueprintName = "Pusher"
+            ReferencedContainer = "container:libPusher-iOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -70,6 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DB18037B1BA6C50B00A8D360"
+            BuildableName = "Pusher.framework"
+            BlueprintName = "Pusher"
+            ReferencedContainer = "container:libPusher-iOS.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
